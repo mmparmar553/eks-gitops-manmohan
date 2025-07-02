@@ -8,7 +8,7 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-        <title>GitOps Demo - Version 1.0</title>
+        <title>GitOps Demo - Version 3.0 by Manmohan</title>
         <style>
             body { 
                 font-family: Arial, sans-serif; 
@@ -30,13 +30,15 @@ data:
     </head>
     <body>
         <div class="container">
-            <h1>🚀 GitOps Demo</h1>
-            <div class="version">Version 2.0.0 - Updated via GitOps!</div>
+            <h1>🚀 GitOps Demo by Manmohan</h1>
+            <div class="version">Version 3.0.0 - Done by GitOps with ArgoCD by Manmohan</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
                 <p>🔄 Synced from Git Repository</p>
                 <p>☸️ Running on EKS Cluster</p>
                 <p>🔥 Updated via Git Commit!</p>
+                <p>👨‍💻 <strong>Done by GitOps with ArgoCD by Manmohan</strong></p>
+                <p>🎯 Automatic Deployment Success!</p>
             </div>
         </div>
     </body>
