@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-status-config
-  namespace: default
+  namespace: production
   labels:
     app: nginx-gitops
     environment: production
