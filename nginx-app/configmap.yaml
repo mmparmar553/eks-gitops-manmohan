@@ -8,11 +8,11 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-        <title>GitOps Demo - Version 3.0 by Manmohan</title>
+        <title>GitOps Demo - Version 10.0 by Manmohan</title>
         <style>
             body { 
                 font-family: Arial, sans-serif; 
-                background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                 color: white;
                 text-align: center;
                 padding: 50px;
@@ -26,21 +26,32 @@ data:
             h1 { font-size: 3em; margin-bottom: 20px; }
             .version { font-size: 1.5em; color: #ffeb3b; }
             .info { margin-top: 30px; font-size: 1.2em; }
+            .highlight { 
+                background: rgba(255,255,255,0.3); 
+                padding: 15px; 
+                border-radius: 8px; 
+                margin: 15px 0;
+                font-size: 1.4em;
+                font-weight: bold;
+                border: 2px solid #ffeb3b;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <h1>🚀 GitOps Demo by Manmohan</h1>
-            <div class="version">Version 8.0.0 - WoW--Wow--Manmohan with Monitoring! 📊</div>
+            <div class="version">Version 10.0.0 - ArgoCD Auto-Sync Test! 🎯</div>
+            <div class="highlight">🎉 WOW WOW MANMOHAN! 🎉</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
                 <p>🔄 Auto-Synced from GitHub Repository</p>
                 <p>☸️ Running on EKS Cluster</p>
                 <p>🔥 Updated via Git Commit!</p>
-                <p>🎉 <strong>WoW--Wow--Manmohan with Monitoring!</strong></p>
-                <p>⚡ GitHub → ArgoCD → EKS → Grafana!</p>
+                <p>🎊 <strong>Testing Real GitOps Workflow!</strong></p>
+                <p>⚡ GitHub → ArgoCD → EKS → Success!</p>
                 <p>📊 Full Observability Stack Active!</p>
                 <p>🔍 Prometheus + Grafana Monitoring!</p>
+                <div class="highlight">🌟 WOW WOW MANMOHAN RULES THE GITOPS WORLD! 🌟</div>
             </div>
         </div>
     </body>
