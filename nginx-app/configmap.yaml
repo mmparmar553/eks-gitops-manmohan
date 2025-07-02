@@ -8,11 +8,11 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-        <title>GitOps Demo - Version 10.0 by Manmohan</title>
+        <title>GitOps Demo - Version 11.0 by Manmohan</title>
         <style>
             body { 
                 font-family: Arial, sans-serif; 
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
                 color: white;
                 text-align: center;
                 padding: 50px;
@@ -33,14 +33,14 @@ data:
                 margin: 15px 0;
                 font-size: 1.4em;
                 font-weight: bold;
-                border: 2px solid #ffeb3b;
+                border: 2px solid #38ef7d;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <h1>🚀 GitOps Demo by Manmohan</h1>
-            <div class="version">Version 10.0.0 - ArgoCD Auto-Sync Test! 🎯</div>
+            <div class="version">Version 11.0.0 - Green Theme! 🟢</div>
             <div class="highlight">🎉 WOW WOW MANMOHAN! 🎉</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
@@ -51,7 +51,7 @@ data:
                 <p>⚡ GitHub → ArgoCD → EKS → Success!</p>
                 <p>📊 Full Observability Stack Active!</p>
                 <p>🔍 Prometheus + Grafana Monitoring!</p>
-                <div class="highlight">🌟 WOW WOW MANMOHAN RULES THE GITOPS WORLD! 🌟</div>
+                <div class="highlight">🌟 GREEN THEME - WOW WOW MANMOHAN! 🌟</div>
             </div>
         </div>
     </body>
