@@ -31,14 +31,14 @@ data:
     <body>
         <div class="container">
             <h1>🚀 GitOps Demo by Manmohan</h1>
-            <div class="version">Version 3.0.0 - Done by GitOps with ArgoCD by Manmohan</div>
+            <div class="version">Version 4.0.0 - Real GitOps Integration by Manmohan</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
-                <p>🔄 Synced from Git Repository</p>
+                <p>🔄 Auto-Synced from GitHub Repository</p>
                 <p>☸️ Running on EKS Cluster</p>
                 <p>🔥 Updated via Git Commit!</p>
-                <p>👨‍💻 <strong>Done by GitOps with ArgoCD by Manmohan</strong></p>
-                <p>🎯 Automatic Deployment Success!</p>
+                <p>🚀 <strong>Real GitOps by Manmohan</strong></p>
+                <p>🎯 GitHub → ArgoCD → EKS Pipeline!</p>
             </div>
         </div>
     </body>
