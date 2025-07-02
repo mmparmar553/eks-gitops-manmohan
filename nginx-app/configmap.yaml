@@ -12,7 +12,7 @@ data:
         <style>
             body { 
                 font-family: Arial, sans-serif; 
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
                 color: white;
                 text-align: center;
                 padding: 50px;
@@ -31,12 +31,12 @@ data:
     <body>
         <div class="container">
             <h1>🚀 GitOps Demo</h1>
-            <div class="version">Version 1.0.0</div>
+            <div class="version">Version 2.0.0 - Updated via GitOps!</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
                 <p>🔄 Synced from Git Repository</p>
                 <p>☸️ Running on EKS Cluster</p>
-                <p>🌟 Nginx Microservice</p>
+                <p>🔥 Updated via Git Commit!</p>
             </div>
         </div>
     </body>
