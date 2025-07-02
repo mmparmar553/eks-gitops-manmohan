@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_USERNAME/eks-gitops-manmohan.git  # Replace with your repo
+    repoURL: https://github.com/mmparmar553/eks-gitops-manmohan.git
     targetRevision: HEAD
     path: environments/production
   destination:
