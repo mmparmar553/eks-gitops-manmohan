@@ -16,6 +16,8 @@ spec:
       labels:
         app: nginx-gitops
         version: v4.0.0
+      annotations:
+        reloader.stakater.com/auto: "true"
     spec:
       containers:
       - name: nginx
