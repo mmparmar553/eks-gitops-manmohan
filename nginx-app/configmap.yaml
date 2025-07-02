@@ -31,15 +31,15 @@ data:
     <body>
         <div class="container">
             <h1>🚀 GitOps Demo by Manmohan</h1>
-            <div class="version">Version 6.0.0 - AUTO-RESTART GitOps by Manmohan! 🔄</div>
+            <div class="version">Version 7.0.0 - WoW--Wow--Manmohan GitOps! 🎉</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
                 <p>🔄 Auto-Synced from GitHub Repository</p>
                 <p>☸️ Running on EKS Cluster</p>
                 <p>🔥 Updated via Git Commit!</p>
-                <p>🎉 <strong>AUTO-RESTART GitOps by Manmohan!</strong></p>
-                <p>⚡ GitHub → ArgoCD → EKS → AUTO-RESTART!</p>
-                <p>🕒 No manual restart needed!</p>
+                <p>🎉 <strong>WoW--Wow--Manmohan GitOps Magic!</strong></p>
+                <p>⚡ GitHub → ArgoCD → EKS → AUTO-MAGIC!</p>
+                <p>🔥 WoW--Wow--Manmohan - Complete Automation!</p>
             </div>
         </div>
     </body>
