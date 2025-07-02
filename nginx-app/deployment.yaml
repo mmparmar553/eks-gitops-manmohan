@@ -5,7 +5,7 @@ metadata:
   namespace: default
   labels:
     app: nginx-gitops
-    version: v8.0.0
+    version: v11.0.0
 spec:
   replicas: 5
   selector:
@@ -15,9 +15,12 @@ spec:
     metadata:
       labels:
         app: nginx-gitops
-        version: v8.0.0
+        version: v11.0.0
       annotations:
         reloader.stakater.com/auto: "true"
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9113"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
       - name: nginx
@@ -25,6 +28,8 @@ spec:
         ports:
         - containerPort: 80
           name: http
+        - containerPort: 8080
+          name: status
         resources:
           requests:
             memory: "64Mi"
@@ -39,7 +44,27 @@ spec:
         - name: nginx-config
           mountPath: /usr/share/nginx/html/index.html
           subPath: index.html
+        - name: nginx-status-config
+          mountPath: /etc/nginx/conf.d/status.conf
+          subPath: status.conf
+      - name: nginx-exporter
+        image: nginx/nginx-prometheus-exporter:0.10.0
+        args:
+          - -nginx.scrape-uri=http://localhost:8080/nginx_status
+        ports:
+        - containerPort: 9113
+          name: metrics
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "25m"
+          limits:
+            memory: "64Mi"
+            cpu: "50m"
       volumes:
       - name: nginx-config
         configMap:
           name: nginx-config
+      - name: nginx-status-config
+        configMap:
+          name: nginx-status-config
