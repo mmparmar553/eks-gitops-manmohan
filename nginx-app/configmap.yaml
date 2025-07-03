@@ -35,12 +35,29 @@ data:
                 font-weight: bold;
                 border: 2px solid #38ef7d;
             }
+            .thursday { 
+                background: rgba(255,215,0,0.3); 
+                padding: 20px; 
+                border-radius: 10px; 
+                margin: 20px 0;
+                font-size: 1.6em;
+                font-weight: bold;
+                border: 3px solid #FFD700;
+                color: #FFD700;
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.05); }
+                100% { transform: scale(1); }
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <h1>🎉 Great job ----WOW WOW MANMOHAN RULES! 🎉</h1>
             <div class="version">Version 13.0.0 - END-TO-END AUTOMATION! 🚀</div>
+            <div class="thursday">📅 Today is Thursday! 🎯</div>
             <div class="highlight">🎊 Great job ----WOW WOW MANMOHAN RULES! 🎊</div>
             <div class="info">
                 <p>✅ Deployed via ArgoCD</p>
